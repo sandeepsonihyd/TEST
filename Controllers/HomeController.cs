@@ -15,6 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        string s = "A";
         int n = 1;
         int m = n;
         return View();
