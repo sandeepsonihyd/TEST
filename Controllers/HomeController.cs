@@ -15,6 +15,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        int n = 1;
+        int m = n;
         return View();
     }
 
