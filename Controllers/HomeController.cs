@@ -17,6 +17,7 @@ public class HomeController : Controller
     {
         int n = 1;
         int m = n;
+        int k = m;
         return View();
     }
 
