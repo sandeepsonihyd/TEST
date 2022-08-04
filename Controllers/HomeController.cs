@@ -16,10 +16,11 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         string s = "A";
+        s = "B";
         int n = 1;
         int m = n;
         int k = m;
-        return View();
+        return View(s);
     }
 
     public IActionResult Privacy()
